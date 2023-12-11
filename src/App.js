@@ -21,16 +21,15 @@ import TextUtil from "./textutils/TextUtil.js";
 import TodoApp from "./todolist/TodoApp.js";
 import Crudapp from "./crud/Crudapp.js";
 import Movieapp from "./MovieApp/Movieapp.js";
+import Foodapp from "./FoodappMCT/Foodapp.js";
 
 
 
 function App() {
   
-  
   return (
     <div >
-  <Movieapp/>
-
+       <Foodapp/>
   
   </div>
   )
