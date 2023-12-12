@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Navbarfood from './Navbarfood'
 import HeroSection from './HeroSection'
 import Bodyofapp from './Bodyofapp'
+import Bodyofapp2 from './Bodyofapp2'
 import SingleBook from './SingleBook'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import PagesBook from './PagesBook'
@@ -29,6 +30,7 @@ function Foodapp() {
         <HeroSection setnav={setnav} nav={nav} bookcat={bookcat} setbookcat={setbookcat} />
         
         <Routes>
+        <Route path='/Book_Store/' element= {<Bodyofapp2 fav={fav} setfav={setfav} login={login} setlogin={setlogin} setbookcat={setbookcat}/>} />
             <Route path='/' element= {<Bodyofapp fav={fav} setfav={setfav} login={login} setlogin={setlogin} setbookcat={setbookcat}/>} />
             <Route path='/catpage' element={<PagesBook fav={fav} login={login} setlogin={setlogin} setfav={setfav} bookcat={bookcat} setbookcat={setbookcat}/>} />
             <Route path='/login' element={<LoginPage login={login} setlogin={setlogin} username={username} setusername={setusername}/>} />

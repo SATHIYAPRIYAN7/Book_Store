@@ -38,7 +38,7 @@ function PagesBook({bookcat,setbookcat,fav,setfav}) {
 
   return (
     <>
-    <div className="mt-6">
+    <div className="mt-6 min-h-screen">
         
     <div className='max-w-6xl m-auto'>
         <h1 className='ml-10 sm:ml-16 font-bold text-3xl'>{bookcat}</h1>

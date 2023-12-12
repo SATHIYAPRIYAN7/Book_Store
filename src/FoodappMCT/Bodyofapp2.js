@@ -5,7 +5,7 @@ import QuickView from './QuickView';
 import FooterBook from './FooterBook';
 import { FaRegArrowAltCircleUp } from "react-icons/fa";
 
-function Bodyofapp({setbookcat,fav,setfav,login,setlogin}) {
+function Bodyofapp2({setbookcat,fav,setfav,login,setlogin}) {
 
     const history=useNavigate();
 
@@ -87,4 +87,4 @@ function Bodyofapp({setbookcat,fav,setfav,login,setlogin}) {
   )
 }
 
-export default Bodyofapp
+export default Bodyofapp2
